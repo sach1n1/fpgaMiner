@@ -1,0 +1,52 @@
+# Simultaneously Switching Noise (SSN) Report
+# Version: 1.0
+# Created on: Mon Jul 27 12:50:02 2020
+# Result Name: ssn_1
+# Project Name: bitcoinMiner
+# Project Family: Artix-7
+# Part: xc7a35tcpg236
+# Temperature Grade: commercial
+# SSN Data Version: Production
+# Package Version: FINAL 2014-02-19
+# Package Pin Delay Version: VERS. 2.0 2014-02-19
+
+IO Bank,VCCO,Signal Name,Pin Number,IO Standard,Drive (mA),Slew Rate,OFFCHIP_TERM,Remaining Margin (%),Result, Notes
+14,1.8,nonceValue[0],U14,LVCMOS18,12,SLOW,FP_VTT_50,7.4,PASS,
+14,1.8,nonceValue[1],V14,LVCMOS18,12,SLOW,FP_VTT_50,-2.1,FAIL,
+14,1.8,nonceValue[2],V13,LVCMOS18,12,SLOW,FP_VTT_50,2.6,PASS,
+14,1.8,nonceValue[3],U16,LVCMOS18,12,SLOW,FP_VTT_50,-4.1,FAIL,
+14,1.8,nonceValue[4],U15,LVCMOS18,12,SLOW,FP_VTT_50,-6.3,FAIL,
+14,1.8,nonceValue[5],W14,LVCMOS18,12,SLOW,FP_VTT_50,20.1,PASS,
+14,1.8,nonceValue[6],W13,LVCMOS18,12,SLOW,FP_VTT_50,7.2,PASS,
+14,1.8,nonceValue[7],W15,LVCMOS18,12,SLOW,FP_VTT_50,5.4,PASS,
+14,1.8,nonceValue[8],V15,LVCMOS18,12,SLOW,FP_VTT_50,-2.9,FAIL,
+14,1.8,nonceValue[9],W17,LVCMOS18,12,SLOW,FP_VTT_50,-9.3,FAIL,
+14,1.8,nonceValue[10],W16,LVCMOS18,12,SLOW,FP_VTT_50,-13.2,FAIL,
+14,1.8,nonceValue[11],V17,LVCMOS18,12,SLOW,FP_VTT_50,4.1,PASS,
+14,1.8,nonceValue[12],V16,LVCMOS18,12,SLOW,FP_VTT_50,-22.0,FAIL,
+14,1.8,nonceValue[13],U18,LVCMOS18,12,SLOW,FP_VTT_50,-23.7,FAIL,
+14,1.8,nonceValue[14],U17,LVCMOS18,12,SLOW,FP_VTT_50,-25.5,FAIL,
+14,1.8,nonceValue[15],T18,LVCMOS18,12,SLOW,FP_VTT_50,-10.2,FAIL,
+14,1.8,nonceValue[16],T17,LVCMOS18,12,SLOW,FP_VTT_50,-35.8,FAIL,
+14,1.8,nonceValue[17],W19,LVCMOS18,12,SLOW,FP_VTT_50,-30.0,FAIL,
+14,1.8,nonceValue[18],W18,LVCMOS18,12,SLOW,FP_VTT_50,-42.1,FAIL,
+14,1.8,nonceValue[19],V19,LVCMOS18,12,SLOW,FP_VTT_50,-25.4,FAIL,
+14,1.8,nonceValue[20],U19,LVCMOS18,12,SLOW,FP_VTT_50,-36.6,FAIL,
+14,1.8,nonceValue[21],R18,LVCMOS18,12,SLOW,FP_VTT_50,-33.9,FAIL,
+14,1.8,nonceValue[22],P18,LVCMOS18,12,SLOW,FP_VTT_50,-32.6,FAIL,
+14,1.8,nonceValue[23],P17,LVCMOS18,12,SLOW,FP_VTT_50,-3.5,FAIL,
+14,1.8,nonceValue[24],N17,LVCMOS18,12,SLOW,FP_VTT_50,23.4,PASS,
+14,1.8,nonceValue[25],K17,LVCMOS18,12,SLOW,FP_VTT_50,-27.1,FAIL,
+14,1.8,nonceValue[26],L17,LVCMOS18,12,SLOW,FP_VTT_50,-26.1,FAIL,
+14,1.8,nonceValue[27],M19,LVCMOS18,12,SLOW,FP_VTT_50,-30.0,FAIL,
+14,1.8,nonceValue[28],R19,LVCMOS18,12,SLOW,FP_VTT_50,-27.9,FAIL,
+14,1.8,nonceValue[29],P19,LVCMOS18,12,SLOW,FP_VTT_50,-21.6,FAIL,
+14,1.8,nonceValue[30],N19,LVCMOS18,12,SLOW,FP_VTT_50,-19.2,FAIL,
+14,1.8,nonceValue[31],N18,LVCMOS18,12,SLOW,FP_VTT_50,17.8,PASS,
+16,3.3,nonceFound,A18,LVCMOS33,12,SLOW,FP_VTT_50,99.3,PASS,
+
+
+# Reference Links
+# Safe to Ignore SSN Failure on MIG Designs - http://www.xilinx.com/support/answers/36141.htm
+# SSN Mitigation Strategy - http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf#search=%22Mitigate%22
+# Off-chip Terminations - http://www.xilinx.com/support/documentation/user_guides/ug471_7Series_SelectIO.pdf#search=%22terminated%22

@@ -1,0 +1,14 @@
+bitCoinMiner.cache
+bitcoinMiner.hw
+bitcoinMiner.ip_user_files
+bitcoinMiner.runs
+bitcoinMiner.sim
+*.log
+*.jou
+*.tcl
+*.bat
+*.xdbg
+*.waf
+*.wpc
+*.lpr
+*.sdb
